@@ -374,6 +374,14 @@ button:focus {
   }
 }
 
+.break {
+  height: 50vh;
+  background-color: #fbd2d7;
+}
+
+.project-info {
+  padding: 10%;
+}
 /* ========================================================================== 
   -2.5 Scroll To Up 
    ========================================================================== */
@@ -573,7 +581,6 @@ button:focus {
   }
   .navbar-brand {
     position: absolute;
-    padding: 15px;
     top: 0;
   }
   #mobile-menu {
@@ -899,9 +906,8 @@ button:focus {
 }
 
 .repo-link {
-  display: block;
-  margin: auto;
-  margin-top: 10px;
+  display: inline-block;
+  margin: 10px;
   height: 48px;
   width: 48px;
   line-height: 48px;
@@ -913,7 +919,6 @@ button:focus {
   transition: all 0.5s ease-in-out;
   border: 1px solid #fbd2d7;
   border-radius: 50%;
-  justify-content: center;
 }
 
 .repo-link:hover {
@@ -1309,4 +1314,11 @@ footer {
 
 .copyright p a:hover {
   color: #fbd2d7;
+}
+
+.me-pic {
+  height: 100px;
+  width: 100px;
+  z-index: 99999 !important;
+  visibility: visible;
 }
